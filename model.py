@@ -1,9 +1,9 @@
 from gensim.models import Word2Vec
 
 # Model dosyalarını yüklemek
-model_1 = Word2Vec.load("lemmatized_model_cbow_window2_dim100.model")
-model_2 = Word2Vec.load("stemmed_model_skipgram_window4_dim100.model")
-model_3 = Word2Vec.load("lemmatized_model_skipgram_window2_dim300.model")
+model_1 = Word2Vec.load("models/lemmatized_model_cbow_window2_dim100.model")
+model_2 = Word2Vec.load("models/stemmed_model_skipgram_window4_dim100.model")
+model_3 = Word2Vec.load("models/lemmatized_model_skipgram_window2_dim300.model")
 
 # 'python' kelimesi ile en benzer 3 kelimeyi ve skorlarını yazdırmak
 def print_similar_words(model, model_name):

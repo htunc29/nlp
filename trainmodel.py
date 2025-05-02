@@ -118,7 +118,7 @@ def train_and_save_model(corpus, params, model_name):
         sg=1 if params['model_type'] == 'skipgram' else 0,
         workers=4  # Çoklu işlemci desteği
     )
-    model.save(f"{model_name}_{params['model_type']}_window{params['window']}_dim{params['vector_size']}.model")
+    model.save(f"models/{model_name}_{params['model_type']}_window{params['window']}_dim{params['vector_size']}.model")
     print(f"{model_name}_{params['model_type']}_window{params['window']}_dim{params['vector_size']} model saved!")
 
 # Modelleri eğit
