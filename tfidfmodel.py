@@ -120,7 +120,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 # adliye kelimesinin vektörünü alalım
 adliye_index = feature_names.tolist().index('adliye')  # 'adliye' kelimesinin indeksini bul
 
-# Python kelimesinin TF-IDF vektörünü alıyoruz ve 2D formatta yapıyoruz
+# adliye kelimesinin TF-IDF vektörünü alıyoruz ve 2D formatta yapıyoruz
 adliye_vector = tfidf_matrix[:, adliye_index].toarray()
 
 # Tüm kelimelerin TF-IDF vektörlerini alıyoruz
