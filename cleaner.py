@@ -3,7 +3,7 @@ import csv
 from bs4 import BeautifulSoup
 import re
 
-folder_path = "uyap_documents/uyap_documents"
+folder_path = "uyap_documents"
 output_csv = "uyap_output.csv"
 
 def clean_text(text):
