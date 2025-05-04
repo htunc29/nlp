@@ -49,18 +49,23 @@ nltk.download('stopwords')
 - `zipf.py`: Zipf yasası analizi
 
 ## Kullanım
+1. Veri Temizleme
+```bash
+python cleaner.py
+```
 
-1. Veri ön işleme:
+
+2. Veri ön işleme:
 ```bash
 python trainmodel.py
 ```
 
-2. TF-IDF analizi:
+3. TF-IDF analizi:
 ```bash
 python tfidfmodel.py
 ```
 
-3. Model kullanımı:
+4. Model kullanımı:
 ```bash
 python model.py
 ```
