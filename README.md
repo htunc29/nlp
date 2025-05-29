@@ -240,9 +240,7 @@ Bu çalışmada, metin benzerliği hesaplama ve değerlendirme amacıyla TF-IDF 
 - [scikit-learn](https://scikit-learn.org/)
 - [gensim](https://radimrehurek.com/gensim/)
 - [numpy](https://numpy.org/)
-- Akademik kaynaklar:
-  - Mikolov, T., et al. (2013). Efficient Estimation of Word Representations in Vector Space.
-  - Salton, G., & Buckley, C. (1988). Term-weighting approaches in automatic text retrieval.
+
 
 ## Ek Notlar
 
